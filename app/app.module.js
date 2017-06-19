@@ -1,3 +1,4 @@
+(function () {
 angular.module('app', []);
 
 angular
@@ -41,3 +42,4 @@ function isNumberKey(evt) {
         return false;
     return true;
 }
+})();
